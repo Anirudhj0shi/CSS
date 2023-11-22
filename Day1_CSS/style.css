@@ -1,0 +1,17 @@
+body{
+    /* text-align: center; */
+    color:blueviolet;
+    background-color: black;
+
+}
+.test{
+    color: aqua;
+}
+.testing{
+    color: rgb(192, 12, 12);
+}
+.test:hover{
+    color: aliceblue;
+    border: 2px solid white;
+    
+} 
