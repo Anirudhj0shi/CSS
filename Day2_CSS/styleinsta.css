@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+
+    
+    color: aliceblue;
+}
+.header{
+    margin: 2rem;
+    /* width: 100px;
+    height: ; */
+}
+.insta_story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.insta_story::-webkit-scrollbar{
+    display: none;
+}
+
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.items img{
+    margin-top: 1cm;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid white;
+
+}

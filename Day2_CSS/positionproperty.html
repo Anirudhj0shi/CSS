@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .box1{
+            width: 70%;
+            height: 50px;
+            background-color: yellow;
+            margin: 2rem;
+        }
+        .box2{
+            width: 70%;
+            height: 50px;
+            background-color: bisque;
+            margin: 2rem;
+            position: absolute;
+        }
+        .box3{
+            width: 70%;
+            height: 50px;
+            background-color: aqua;
+            margin: 2rem;
+        }
+        .parentbox{
+            border: 2px solid yellow;
+            padding: 2rem;
+            /* margin-top: 5rem; */
+        }
+        .testing{
+            height: 20vh;
+            background-color: blue;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="testing"></div>
+    <div class="parentbox">
+
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        
+    </div>
+</body>
+</html>

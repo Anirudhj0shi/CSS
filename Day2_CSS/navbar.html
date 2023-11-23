@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV_BAR</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+            background-size: cover;
+
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: aqua;
+        }
+        .left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: cursive;
+            /* background-color: blueviolet; */
+        }
+        .left img{
+            width: 50px;
+            height: 50px;
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: blueviolet; */
+        }
+        .items{
+            padding: 10px;
+        }
+        .items:hover{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left"><img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="google">Google</div>
+
+        <div class="right">
+            
+            <div class="items">Home</div>
+            <div class="items">Career</div>
+            <div class="items">About</div>
+            <div class="items">Team</div>
+            <div class="items">Contact Us</div>
+        </div>
+        
+    </div>
+</body>
+</html>
