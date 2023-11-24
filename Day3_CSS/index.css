@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+#main {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar-left{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width: 22%;
+    border-right: 1px solid black;
+    position: relative;
+}
+.logo{
+    width: 200px;
+    padding: 2rem 0;
+}
+.insta-logo{
+    width: 100%;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+.element{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.element i{
+    margin-bottom: 2px;
+}
+.elements p,i{
+    cursor: pointer;
+}
+.last-elements{
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    bottom: 2rem;
+}
+.last-element{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.home{
+    font-weight: 1000;
+}
+
+/* center-content */
+.center-content{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.story-panel{
+    padding: 2rem 2rem;
+    display: flex;
+    gap: 2rem;  
+}
+
+.story {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.6rem;
+}
+.story img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid rgb(240, 92, 116);
+}
+
+/* feed container */
+
+.feed-container{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    margin-top: 1rem;
+    /* align-items: center; */
+    /* justify-content: center */
+    /* margin-left: 10rem; */
+}
+.user-post{
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 2rem 2rem;
+}
+.user-info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    /* background-color: gold; */
+}
+.user-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-image img{
+    width: 600px;
+    height: 70%;
+}
+.user-name{
+    display: flex;
+    /* background-color: beige; */
+    gap: 1rem;
+    align-items: center;
+}
+.user-name p:nth-child(1){
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.user-name p:nth-child(2){
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.user-info .ri-more-fill{
+    font-size: 2rem;
+    /* text-align: center; */
+    /* padding-top: 2rem; */
+
+}
+
+/* sidebar-right */
+
+.sidebar-right{
+    width: 23%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* padding: auto 2rem; */
+    margin-right: 1rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(23, 138, 231);
+    font-weight: 550;
+    letter-spacing: 1.3px;
+}
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.suggestion-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.suggestion-heading p{
+    font-weight: 500;
+    color: rgb(95, 81, 81);
+    padding-top: 1.1rem;
+}
+.suggestion-heading button{
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 700;
+}
+
+.suggestion .user-info .user-name p{
+    font-size: 13px;
+}
+
+
+/* FOOTER */
+
+.footer-elements{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.links li{
+    font-weight: 500;
+    font-size: 15px;
+    list-style: none;
+    color: rgb(90, 65, 63);
+
+}
+.copyrights{
+    font-weight: 500;
+    color: rgb(90, 65, 63);
+}
