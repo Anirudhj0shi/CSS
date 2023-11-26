@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+#main {
+    display: flex;
+    width: 100%;
+}
+.sidebar-left{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    width: 22%;
+    border-right: 1px solid black;
+    position: relative;
+}
+.logo{
+    width: 200px;
+    padding: 2rem 0;
+}
+.insta-logo{
+    width: 100%;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+.element{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.element i{
+    margin-bottom: 2px;
+}
+.elements p,i{
+    cursor: pointer;
+}
