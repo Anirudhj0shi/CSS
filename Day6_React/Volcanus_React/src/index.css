@@ -1,0 +1,14 @@
+.superman{
+    border: '5px solid blue';
+    padding: 2rem;
+    color: black;
+    background-color: chartreuse;
+    
+    text-align: center;
+}
+
+.Person{
+  border-radius: 10px;
+  background-color: rgb(43, 185, 185);
+  font-family: cursive;
+}
