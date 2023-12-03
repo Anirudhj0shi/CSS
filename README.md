@@ -5,6 +5,6 @@
 
 3.) in Day6_ i have learned using props by getting info of person and details like the number aadhaar  and other details by props.
 
-4.) in Day7_ I have learned about the USE_STATE method by chnaging the values
+4.) in Day7_ I have learned about the USE_STATE method by chnaging the values.
 
 
