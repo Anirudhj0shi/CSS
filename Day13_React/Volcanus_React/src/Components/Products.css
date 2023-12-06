@@ -1,0 +1,55 @@
+.main-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .btn-warning {
+    margin-top: 10px;
+  }
+  
+/* ..................................................... */
+
+  .search-bar {
+    position: sticky;
+    top: 0;
+    padding: 10px; /* Add padding as needed */
+    z-index: 999; /* Set a high z-index to ensure it stays above other elements */
+    padding-left: 550px;
+  }
+  
+  #sear-ch {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+  }
+  
+  #sear-ch::placeholder {
+    color: #595656; /* Placeholder text color */
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+  }
+  
