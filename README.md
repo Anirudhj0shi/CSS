@@ -9,4 +9,5 @@
 
 5.) in Day8_ I have learned about the AMAZON GRID
 
+6.) in Day9_ I have learned about the Filter method 
 
