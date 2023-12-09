@@ -11,7 +11,7 @@ const App = () => {
       <p>your name is {45+68}</p>
     </div>
     <div>
-      <h1>hello motherfucker</h1>
+      <h1>hello</h1>
     </div>
     </>
   )
