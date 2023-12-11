@@ -11,4 +11,4 @@
 
 6.) in Day9_ I have learned about the Filter method .
 
-7.) in Day10_ I have learned about the API FETCH method 
+7.) in Day10_ I have learned about the API FETCH method .
